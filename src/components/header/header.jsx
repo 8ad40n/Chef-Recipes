@@ -2,7 +2,7 @@ import profile from '../../assets/profile.png';
 
 export default function Header() {
   return (
-    <div className="container mx-auto mb-[2.5rem] md:mb-[4.5rem] lg:mb-[6.25rem] px-2 md:px-15 lg:px-20">
+    <div className="container mx-auto mb-[1rem] md:mb-[1rem] lg:mb-[1rem] px-2 md:px-15 lg:px-20">
       <div className="navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
