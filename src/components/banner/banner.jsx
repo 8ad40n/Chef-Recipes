@@ -2,7 +2,7 @@ import banner from '../../assets/banner.png';
 
 export default function Banner() {
   return (
-    <div className="container mx-auto mb-[1rem] md:mb-[1rem] lg:mb-[1rem] px-2 md:px-15 lg:px-20 overflow-hidden">
+    <div className="container mx-auto mb-[2.5rem] md:mb-[4.5rem] lg:mb-[6.25rem] px-2 md:px-15 lg:px-20 overflow-hidden">
       <div
         className="hero min-h-screen rounded-3xl"
         style={{ backgroundImage: `url(${banner})`, backgroundSize: 'cover', backgroundPosition: 'center' }}

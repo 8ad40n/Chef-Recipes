@@ -1,0 +1,163 @@
+[
+    {
+      "id": 1,
+      "food_image": "https://images.unsplash.com/photo-1612874742237-6526221588e3?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Spaghetti Carbonara",
+      "description": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
+      "ingredients": [
+        "200g spaghetti",
+        "100g pancetta",
+        "2 large eggs",
+        "50g pecorino cheese",
+        "50g parmesan cheese",
+        "Black pepper"
+      ],
+      "time": 20,
+      "calories": 400
+    },
+    {
+      "id": 2,
+      "food_image": "https://images.unsplash.com/photo-1582034986517-30d163aa1da9?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Chicken Caesar Salad",
+      "description": "A healthy and refreshing salad with grilled chicken, romaine lettuce, croutons, and Caesar dressing.",
+      "ingredients": [
+        "200g grilled chicken breast",
+        "1 romaine lettuce",
+        "50g croutons",
+        "30g parmesan cheese",
+        "Caesar dressing",
+        "Black pepper"
+      ],
+      "time": 15,
+      "calories": 350
+    },
+    {
+      "id": 3,
+      "food_image": "https://images.unsplash.com/photo-1644592219048-5c070fd3c91c?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Beef Stroganoff",
+      "description": "A Russian-inspired dish with sautéed pieces of beef served in a sauce with sour cream.",
+      "ingredients": [
+        "500g beef sirloin",
+        "1 onion",
+        "200g mushrooms",
+        "200ml sour cream",
+        "100ml beef broth",
+        "2 tbsp flour"
+      ],
+      "time": 30,
+      "calories": 500
+    },
+    {
+      "id": 4,
+      "food_image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Vegan Burger",
+      "description": "A delicious and healthy vegan burger made with black beans, quinoa, and a variety of spices.",
+      "ingredients": [
+        "400g black beans",
+        "100g quinoa",
+        "1 onion",
+        "1 red bell pepper",
+        "2 cloves garlic",
+        "2 tbsp olive oil"
+      ],
+      "time": 25,
+      "calories": 300
+    },
+    {
+      "id": 5,
+      "food_image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Classic Pancakes",
+      "description": "Fluffy and light pancakes perfect for a weekend breakfast, served with maple syrup and fresh berries.",
+      "ingredients": [
+        "200g all-purpose flour",
+        "2 tbsp sugar",
+        "2 tsp baking powder",
+        "1 large egg",
+        "300ml milk",
+        "2 tbsp melted butter"
+      ],
+      "time": 20,
+      "calories": 250
+    },
+    {
+      "id": 6,
+      "food_image": "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Chicken Tacos",
+      "description": "Mexican-style tacos with grilled chicken, fresh salsa, and avocado slices.",
+      "ingredients": [
+        "200g grilled chicken",
+        "6 small tortillas",
+        "1 avocado",
+        "100g salsa",
+        "50g shredded lettuce",
+        "50g shredded cheese"
+      ],
+      "time": 15,
+      "calories": 300
+    },
+    {
+      "id": 7,
+      "food_image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Ramen Noodles",
+      "description": "A flavorful bowl of ramen noodles with broth, boiled egg, and sliced pork.",
+      "ingredients": [
+        "200g ramen noodles",
+        "500ml broth",
+        "1 boiled egg",
+        "100g sliced pork",
+        "50g mushrooms",
+        "1 green onion"
+      ],
+      "time": 25,
+      "calories": 450
+    },
+    {
+      "id": 8,
+      "food_image": "https://images.unsplash.com/photo-1559410545-0bdcd187e0a6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Sushi Rolls",
+      "description": "Fresh and delicious sushi rolls made with rice, seaweed, and various fillings.",
+      "ingredients": [
+        "200g sushi rice",
+        "4 nori sheets",
+        "100g raw fish",
+        "1 avocado",
+        "1 cucumber",
+        "Soy sauce"
+      ],
+      "time": 30,
+      "calories": 350
+    },
+    {
+      "id": 9,
+      "food_image": "https://plus.unsplash.com/premium_photo-1663012872761-33dd73e292cc?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "BBQ Ribs",
+      "description": "Juicy and tender BBQ ribs cooked to perfection with a smoky flavor.",
+      "ingredients": [
+        "500g pork ribs",
+        "200ml BBQ sauce",
+        "1 tbsp paprika",
+        "1 tbsp garlic powder",
+        "Salt",
+        "Black pepper"
+      ],
+      "time": 60,
+      "calories": 600
+    },
+    {
+      "id": 10,
+      "food_image": "https://plus.unsplash.com/premium_photo-1663852297521-b1b7183b4b46?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Fruit Salad",
+      "description": "A refreshing mix of seasonal fruits topped with a hint of mint.",
+      "ingredients": [
+        "1 apple",
+        "1 banana",
+        "100g grapes",
+        "1 orange",
+        "1 kiwi",
+        "Mint leaves"
+      ],
+      "time": 10,
+      "calories": 150
+    }
+  ]
+  
