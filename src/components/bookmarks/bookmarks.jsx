@@ -4,7 +4,7 @@ export default function Bookmarks({cooks}) {
   return (
     <div className="">
         <div className="shadow-2xl px-6 pt-12 pb-6 rounded-3xl">
-            <h1>Want to cook: {cooks.length}</h1>
+            <h1 className="text-2xl text-center font-bold mb-2">Want to cook: {cooks.length}</h1>
             <hr />
             <div className="overflow-x-auto">
                 <table className="table-lg mx-auto">
