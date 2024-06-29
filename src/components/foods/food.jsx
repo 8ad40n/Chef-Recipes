@@ -35,7 +35,7 @@ export default function Food({food, handleWantToCook}) {
                         <p className="font-light text-sm">{calories} calories</p>
                     </div>
                 </div>  
-                <button onClick={()=>handleWantToCook(id)} className="btn bg-[#0BE58A] rounded-full w-1/2">Want to Cook</button>
+                <button onClick={()=>handleWantToCook(food)} className="btn bg-[#0BE58A] rounded-full w-1/2">Want to Cook</button>
             </div>
             </div>
         </div>
