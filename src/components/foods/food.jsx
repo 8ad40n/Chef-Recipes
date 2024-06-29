@@ -1,8 +1,10 @@
 import cal from "../../assets/calorie.png";
 import minute from "../../assets/time.png";
 
-export default function Food({food}) {
+export default function Food({food, handleWantToCook}) {
     const {id,food_image,title,description,ingredients,time,calories} = food;
+
+
     return (
         <div>
             <div className="card bg-base-100 shadow-2xl">
@@ -33,7 +35,7 @@ export default function Food({food}) {
                         <p className="font-light text-sm">{calories} calories</p>
                     </div>
                 </div>  
-                <button className="btn bg-[#0BE58A] rounded-full w-1/2">Want to Cook</button>
+                <button onClick={()=>handleWantToCook(id)} className="btn bg-[#0BE58A] rounded-full w-1/2">Want to Cook</button>
             </div>
             </div>
         </div>

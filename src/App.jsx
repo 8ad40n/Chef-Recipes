@@ -5,8 +5,13 @@ import Foods from './components/foods/foods'
 import Header from './components/header/header'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [cooks, setCooks] = useState([]);
 
+  const handleWantToCook = (id) => {
+      // const c = foods.filter(food => food.id === id);
+      // setCooks(c);
+      console.log("cooking");
+  }
   return (
     <>
     <Header></Header>
@@ -17,7 +22,14 @@ function App() {
       <p className='font-light'>Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus vulputate netus pharetra rhoncus. Eget urna volutpat curabitur elementum mauris aenean neque. </p>
     </div>
 
-    <Foods></Foods>
+    <div className='flex justify-between'>
+      <div className='flex-1'>
+        <Foods handleWantToCook={handleWantToCook}></Foods>
+      </div>
+      <div>
+        {/* <Cooks></Cooks> */}
+      </div>
+    </div>
     </>
   )
 }
